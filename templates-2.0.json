@@ -58,10 +58,24 @@
       "categories": ["server"],
       "platform": "linux",
       "logo": "https://www.gravatar.com/avatar/f6ebd1a2056ef8d3fdd354e7c74e52fe?s=120&r=g&d=404",
+      "name": "samba",
       "image": "mdelgert/alpine-samba:latest",
       "ports": ["139/tcp", "445/tcp"],
+      "env": [
+				{
+					"default": "admin",
+					"label": "USERNAME",
+					"name": "USERNAME"
+				},
+				{
+					"default": "admin",
+					"label": "PASSWORD",
+					"name": "PASSWORD"
+				}
+			],
       "volumes": [
         {
+          "bind" : "samba_data",
           "container": "/shared"
         }
       ]
