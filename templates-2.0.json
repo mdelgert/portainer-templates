@@ -40,6 +40,18 @@
     },
     {
       "type": 1,
+      "title": "Nginx proxy manager",
+      "description": "Enables you to easily forward to your websites",
+      "categories": ["webserver"],
+      "platform": "linux",
+      "logo": "https://nginxproxymanager.com/logo.png",
+      "repository": {
+        "url": "https://github.com/mdelgert/portainer-templates",
+        "stackfile": "stacks/mginx-managerdocker-compose.yml"
+      }
+    },
+    {
+      "type": 1,
       "title": "Ubuntu",
       "description": "Debian-based Linux operating system",
       "categories": ["operating-system"],
