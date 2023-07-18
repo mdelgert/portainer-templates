@@ -41,7 +41,7 @@
     {
       "type": 1,
       "title": "Ubuntu",
-      "description": "Test, Debian-based Linux operating system.",
+      "description": "Debian-based Linux operating system, modified.",
       "categories": ["operating-system"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ubuntu.png",
