@@ -41,7 +41,7 @@
     {
       "type": 3,
       "title": "Nginx proxy manager",
-      "description": "Enables you to easily forward to your websites!",
+      "description": "This project comes as a pre-built docker image that enables you to easily forward to your websites running at home or otherwise, including free SSL, without having to know too much about Nginx or Letsencrypt.",
       "categories": ["webserver"],
       "platform": "linux",
       "logo": "https://nginxproxymanager.com/logo.png",
