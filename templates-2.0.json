@@ -39,15 +39,15 @@
       ]
     },
     {
-      "type": 1,
+      "type": 3,
       "title": "Nginx proxy manager",
-      "description": "Enables you to easily forward to your websites",
+      "description": "Enables you to easily forward to your websites!",
       "categories": ["webserver"],
       "platform": "linux",
       "logo": "https://nginxproxymanager.com/logo.png",
       "repository": {
         "url": "https://github.com/mdelgert/portainer-templates",
-        "stackfile": "stacks/mginx-manager/docker-stack.yaml"
+        "stackfile": "stacks/mginx-manager/docker-compose.yaml"
       }
     },
     {
