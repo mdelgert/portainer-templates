@@ -5,6 +5,5 @@ Clone of [portainer](https://github.com/portainer/templates), for more informati
 [pi-hosted](https://github.com/novaspirit/pi-hosted)
 
 # Updated portainer
-https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json
+Update portainer app url from https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json to https://raw.githubusercontent.com/mdelgert/portainer-templates/main/templates-2.0.json.
 
-To the following url.
