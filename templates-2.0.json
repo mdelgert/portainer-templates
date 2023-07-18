@@ -48,7 +48,8 @@
       "repository": {
         "url": "https://github.com/mdelgert/portainer-templates",
         "stackfile": "stacks/mginx-manager/docker-compose.yaml"
-      }
+      },
+      "note": "<b>Github: <a href=\"https://github.com/NginxProxyManager/nginx-proxy-manager\" target=\"_blank\">https://github.com/NginxProxyManager/nginx-proxy-manager</a></b>"
     },
     {
       "type": 1,
