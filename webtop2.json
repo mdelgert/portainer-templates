@@ -1,0 +1,42 @@
+{
+    "version": "3",
+    "templates": [{
+            "id": 1,
+            "type": 3,
+            "name": "webtop",
+            "title": "Webtop (Ubuntu MATE)",
+            "description": "LinuxServer Webtop desktop",
+            "note": "Configurable Webtop container",
+            "categories": ["Desktop"],
+            "platform": "linux",
+            "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webtop-logo.png",
+            "image": "lscr.io/linuxserver/webtop:ubuntu-mate",
+            "env": [{
+                    "name": "PUID",
+                    "label": "User ID (PUID)",
+                    "default": "1000"
+                }, {
+                    "name": "PGID",
+                    "label": "Group ID (PGID)",
+                    "default": "1000"
+                }, {
+                    "name": "TZ",
+                    "label": "Timezone",
+                    "default": "US/Arizona"
+                }, {
+                    "name": "CONFIG_PATH",
+                    "label": "Host config path",
+                    "default": "/portainer/Files/AppData/Config/Webtop1"
+                }, {
+                    "name": "PORT_3000",
+                    "label": "Host port",
+                    "default": "3000"
+                }
+            ],
+            "repository": {
+                "url": "https://raw.githubusercontent.com/mdelgert/portainer-templates/main",
+                "stackfile": "docker-compose.yml"
+            }
+        }
+    ]
+}
