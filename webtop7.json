@@ -1,0 +1,39 @@
+{
+    "version": "3",
+    "templates": [{
+            "id": 1,
+            "type": 1,
+            "name": "webtop-ubuntu-mate",
+            "title": "Webtop (Ubuntu MATE)",
+            "description": "LinuxServer Webtop desktop (Ubuntu MATE)",
+            "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webtop-logo.png",
+            "image": "lscr.io/linuxserver/webtop:ubuntu-mate",
+            "categories": ["Desktop"],
+            "ports": ["3000/tcp"],
+            "volumes": [{
+                    "container": "/config",
+                    "bind": "/portainer/Files/AppData/Config/Webtop1"
+                }
+            ],
+            "env": [{
+                    "name": "PUID",
+                    "label": "PUID",
+                    "default": "1000",
+                    "preset": false
+                }, {
+                    "name": "PGID",
+                    "label": "PGID",
+                    "default": "1000",
+                    "preset": false
+                }, {
+                    "name": "TZ",
+                    "label": "TZ",
+                    "default": "US/Arizona",
+                    "preset": false
+                }
+            ],
+            "restart_policy": "unless-stopped",
+            "maintainer": "https://github.com/mdelgert/portainer-templates"
+        }
+    ]
+}
